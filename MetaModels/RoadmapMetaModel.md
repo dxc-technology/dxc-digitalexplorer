@@ -80,10 +80,22 @@ Outcome of the innovation agenda, selected focus areas are combined to create a 
 |----|----|
 |id|system generated
 |Name|short name of the client strategic initiative
+|Description|
+|BusinessProblem|
 |creationDate|system generated creation date
 |modifiedDate|system generated last modified date
 |description| extended description of the 
 |SFDCID| free text to capture the SFDC id
+|discover|Estimated value of the discover stage
+|Pilot||Estimated value of the Pilot stage
+|Prototype||Estimated value of the Prototype stage
+|Production||Estimated value of the Production stage
+|operation||Estimated value of the operation stage
+|discoverCloseDate|Estimated completion date for Discover state
+|PrototypeCloseDate|Estimated completion date for the Prototype
+|PilotCloseDate|Estimated completion date for the pilot
+|ProductionCloseDate|Estimated completion date for the Production 
+|operationCloseDate|Estimated completion date for the Operations
 |Status| `approved` or `rejected`
 
 
@@ -136,3 +148,4 @@ Internal program group to help track the creation of innovation agendas
 |May 2018| David Stevens | DXCInternalProgram - allow accounts to be grouped into internal programs
 |June 2018| David Stevens | updates to ClientStrategicInitiative, allow KPI's and Goals to be related to these.
 |March 2019|David Stevens | Idea voting, status and owners
+|August 2019 |David Stevens | Idea revenue values and estimated dates

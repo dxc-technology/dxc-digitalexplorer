@@ -57,6 +57,9 @@ The following information is required for each Idea
 - Client Goals (optional)
 - Client KPI's (optional)
 - Focus Areas
+- Estimate revenue and completion dates<br>
+
+![roadmap1](images/IdeasValue.png)<br>
 
 :bulb: The goals, KPI's and focus trends captured here - go on to form the initial business view of the planned solution.
 

@@ -281,6 +281,7 @@ Ratio : 1:1
 |Solution|Practice|ASSOCIATED_TO
 |Feature|ConfigurationPlan|REALIZED_BY
 |Solution|ConfigurationPlan|REALIZED_BY
+|BusinessArea|Solution|INFLUENCE
 
 
 #### Event Relationships
@@ -301,3 +302,4 @@ Ratio : 1:1
 |August 2018| David Stevens | Updates to solution properties for Quantitate values, new SFDC node, relationship to Region
 |March 2019| David Stevens |Added indexing notes
 |July 2019| David Stevens | Added special relationship for event voting
+|August 2019 | David Stevens | Optional Relationship between Solution and Business Area
