@@ -136,6 +136,8 @@ Internal program group to help track the creation of innovation agendas
 |ClientIdea|Person|ASSIGNED |role
 |ClientIdea|Person|RANKED |vote
 |Account|DXCInternalProgram|MEMBER_OF
+|ClientIdea|Solution|TRIGGERED
+|Solution|Solution|SPECIALIZED
 
 
 ----
@@ -149,3 +151,4 @@ Internal program group to help track the creation of innovation agendas
 |June 2018| David Stevens | updates to ClientStrategicInitiative, allow KPI's and Goals to be related to these.
 |March 2019|David Stevens | Idea voting, status and owners
 |August 2019 |David Stevens | Idea revenue values and estimated dates
+|September 2019|David Stevens | Idea > Solution > Solution relationships - introduced with the Idea Analyzer feature

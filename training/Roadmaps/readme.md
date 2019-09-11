@@ -23,6 +23,7 @@ _duration : 0:35_
 | [The roadmap Canvas](RoadmapCanvas.md) |200|David Stevens|
 | [The roadmap output and capturing Ideas](RoadmapOutput.md) |200|David Stevens|
 | [Creating a solution from an Idea](Idea2Solution.md) |200|David Stevens|
+| [Idea Analyzer](IdeaAnalyzer.md) |200|David Stevens|
 | [Using a template](UsingaTemplate.md) |200|David Stevens|
 | [FAQ](RoadmapFAQ.md)|200| David Stevens|
 | [Insights and reporting](RoadmapInsights.md)|300|David Stevens|
