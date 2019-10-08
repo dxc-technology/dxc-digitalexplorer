@@ -52,6 +52,17 @@
         - Retired
     - Elevator Pitch : Short and powerful statement describing the solution.  **Limited to 140 characters**
     - Solution Description : Full description of the solution<br>
+1. **Quantitative Values**<br><br>
+  <br>![form](images/SolutionValue.png)<br>
+1. **Account and Industry**
+  <br>![form](images/AccountIndustry.png)<br>
+    - Industry : Select **at least one** industry for your solution
+    :bulb: You can also include any relevant industry value chains; expand the subindustry.<br>
+    ![form](images/SolutionBusinessAreas.png)<br><br>
+    - Account (Optional) : Select the accounts the solution has been delivered too.
+    - Delivery Center  (Optional)
+    - Region (Optional)
+    - Opportunity and Client Testimonial (Optional)
 1. Business value and motivations
     <br>![form](images/Solutionform4.png)
     - Value Proposition : full description of the business value of the solution<br>
@@ -110,11 +121,9 @@
 1. Other information<br>
     The final page of the form closes out the required information
     <br>![form](images/Solutionform9.png)
-    - Industry : Select at least one industry for your solution
-    - Category (Optional)
-    - Referenceable : Yes or No **Default value is No**
     - Tags (Optional)
-    - Account (Optional) : Select the accounts the solution has been delivered too.
 
-1. :tada:Solution upload complete!<br>
+
+
+2. :tada:Solution upload complete!<br>
 The same form is presented if you wish to edit your solution.

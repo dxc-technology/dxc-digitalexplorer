@@ -16,9 +16,22 @@
 From this screen you can select to 
     1. View
     1. Edit
+    1. View playbook metrics
     1. Delete
 <br>
 You can also view the creation date and if your playbook is private or available to all users
+
+
+
+### Playbook Metrics
+
+Within the playbook metrics you can track the following areas
+
+1. Individual page views
+2. Unique user counts of the playbook
+3. Total views of the overall playbook
+
+![image](images/PlaybookMetrics.png)<br>
 
 ---
 
