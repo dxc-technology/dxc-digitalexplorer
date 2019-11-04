@@ -1,3 +1,5 @@
+# Solution MetaModel 
+
 ![](../images/SolutionMetaModel.png)
 
 Note : Any nodes with a solid border are a connection point across the graph model 
@@ -257,14 +259,15 @@ Ratio : 1:1
 
 
 ### Relationships
-|Source|Destination|Name|Properties|
-|----|----|----|----|
+|Source|Destination|Name|Properties|Notes|
+|----|----|----|----|----|
 |Solution|SFDCInfo|RELATES_TO
 |Motivation|Solution|INFLUENCE
 |TechnologyTrend|Solution|INFLUENCE
 |BusinessTrend|Solution|INFLUENCE
 |Person|Solution|ASSIGNED|{role}
 |Solution|Feature|REALIZED_BY
+|Feature|Solution|MASTER| | Captures the first usage (master) of the feature
 |FeatureSet|Feature|REALIZED_BY
 |Feature|FeatureCategory|OFCATEGORY
 |Feature|TechnologyGroup|REALIZEDBY
@@ -303,3 +306,4 @@ Ratio : 1:1
 |March 2019| David Stevens |Added indexing notes
 |July 2019| David Stevens | Added special relationship for event voting
 |August 2019 | David Stevens | Optional Relationship between Solution and Business Area
+|October 2019 | David Stevens | Master relationship between Solution and Feature
