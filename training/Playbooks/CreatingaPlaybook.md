@@ -43,32 +43,35 @@ The playbook shelf is shown on the homepage of the playbooks module.  You can se
   :bulb: You can select images for your playbook title page and banner from the provided library or upload your own.<br>
   :bulb: You can select the colour of your banner text to ensure it is visible on the homepage
 
-### Pages text
+### Pages
   There are a number of page layouts available<br>
-  <br>![appblock](images/playbook3.png)<br>
+  <br>![appblock](images/playbook3.png)<br><br>
   :bulb: You can add more pages by selecting `Add new page`
-   <br>![appblock](images/playbook3a.png)<br>
+   <br>![appblock](images/playbook3a.png)<br><br>
   :bulb: On pages with images you can select a supporting image from the provided library or upload your own.<br>
   :bulb: You can change the order of the pages using the `arrows`
-  <br><br>![appblock](images/playbook3b.png)<br><br>
+  <br><br>![appblock](images/playbook3b.png)<br><br><br>
+  :bulb: You can select the location of the new page
+  <br><br>![appblock](images/playbook3c.png)<br><br><br>
   :bulb: double click on any existing page to change it's layout<br>
-     <br>
-   Available page layouts and notes<br><br>
+<br><br>
 
-|Layout|Description|
-|---|---|
-|GRAPH|Graph view from workspace**
-|T_MAP|TMAP diagram from roadmaps**
-|SUMMARY|Summary table from roadmaps**
-|COMPARE|Compare view from workspace**
-|RISK_TABLE|Risk table from roadmaps**
-|TWO_COLUMNS_IMAGE_LEFT|1 text column image left
-|TWO_COLUMNS_IMAGE_RIGHT|1 text column image left
-|THREE_COLUMNS_IMAGE_LEFT|2 text columns image right
-|THREE_COLUMNS_IMAGE_RIGHT|2 text columns image right
-|THREE_COLUMNS|3 text columns
-|TWO_COLUMNS|2 text columns
-|ONE_COLUMN|single image view (full page)
+#### Available page layouts and notes<br><br>
+
+|Layout|Description|Related Module|Notes
+|---|---|---|---|
+|GRAPH|Graph view from workspace|Workspaces|Single Workspace selection
+|COMPARE|Compare view from workspace|Workspaces|2 or 3 workspace selections
+|T_MAP|TMAP diagram from roadmaps|Roadmaps|
+|SUMMARY|Summary table from roadmaps|Roadmaps|
+|RISK_TABLE|Risk table from roadmaps|Roadmaps|Option to select the table axis
+|TWO_COLUMNS_IMAGE_LEFT|1 text column image left|
+|TWO_COLUMNS_IMAGE_RIGHT|1 text column image left|
+|THREE_COLUMNS_IMAGE_LEFT|2 text columns image right|
+|THREE_COLUMNS_IMAGE_RIGHT|2 text columns image right|
+|THREE_COLUMNS|3 text columns|
+|TWO_COLUMNS|2 text columns|
+|ONE_COLUMN|single image view (full page)|
 
 ### Trends
   <br>![appblock](images/playbook4.png)
