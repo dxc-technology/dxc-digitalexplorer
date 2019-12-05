@@ -2,13 +2,17 @@
 
 The purpose of the Digital Explorer GitHub Reader is to allow delivery and development teams to push and synchronize their solution descriptions directly into DXC Digital Explorer; allowing their content to be referenced across the Digital Explorer Platform.
 
-PLACEHOLDER FOR A SIMPLE INTEGRATION DIAGRAM
+![image](GitHubReaderConcept.png)
 
 
 ## Approach
 The Digital Explorer Solutions module stores solutions against a defined [Graph metamodel](..\MetaModels\SolutionMetaModel.md), the GitHub reader therefore requires solutions within GitHub to align to this metamodel. 
 
 PLACEHOLDER FOR A SIMPLE BREAKDOWN OF THE DE SOLUTION MODEL
+
+## How to install
+
+TBD
 
 
 ### Transferring and connecting into the Knowledge Graph
