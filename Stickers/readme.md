@@ -49,7 +49,7 @@ Stickers can be ordered via [Sticker Mule](https://www.stickermule.com/uk)
 ![image](images/logo.png)
 
 ### Pioneer
-![image](images/pioneer.png)
+![image](images/Pioneer.png)
 
 ### Standard
 ![image](images/standard.png)
