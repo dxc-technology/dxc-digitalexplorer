@@ -142,9 +142,9 @@ Some example solution filters
 
 ### Publishing your results
 
-As you walkthrough your **Workspaces**, **Comparison** and **Graph** Views you may wish to publish and share these with the client or account team after the workshop; these can be published using the **Digital Explorer Playbook module**.
+As you walkthrough your **Workspaces**, **Comparison** and **Graph** views, you may wish to publish and share these with the client or account team after the workshop; these can be published using the **Digital Explorer Playbook module**.
 
-:bulb: You may also want to prepare a **Playbook** before the workshop and use the Playbook to help with the client discussion
+:bulb: You may also want to prepare a **Playbook** before the workshop and use the **Playbook** to help with the client discussion
 
 :bulb: You can create a **Playbook** directly within your **Workspace** or **Workgroup**<br>
 
@@ -155,12 +155,24 @@ As you walkthrough your **Workspaces**, **Comparison** and **Graph** Views you m
 #### Creating a Playbook within a Workspace
 Within your **Workspace canvas** select the "Send To" option from the toolbar<br>
 
+:point_right: ![image](images/WorkspacePlaybook.png)<br><br>
+:point_right: ![image](images/WorkspacePlaybook2.png)<br><br>
 
 #### Creating a Playbook within a Workgroup
 Within your main **Workgroup** area, expand the **Playbooks** section and select **Create New**<br>
 
+:point_right: ![image](images/WorkgroupPlaybook.png)<br><br>
+
 
 :bulb: However you create your **Playbook**, it will appear in your list of Playbooks in your main **Workgroup** view
+
+
+# :bulb: Further guides on creating playbooks
+
+- [Creating a playbook](https://github.com/dxc-technology/dxc-digitalexplorer/blob/master/training/Playbooks/CreatingaPlaybook.md)
+- [Creator tips](https://github.com/dxc-technology/dxc-digitalexplorer/blob/master/training/Playbooks/CreatorTips.md)
+- [Playbook user guides](https://github.com/dxc-technology/dxc-digitalexplorer/blob/master/training/Playbooks/readme.md)
+
 
 
 ### Next steps
