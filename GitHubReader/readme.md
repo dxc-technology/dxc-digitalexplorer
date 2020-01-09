@@ -6,7 +6,7 @@ The purpose of the Digital Explorer GitHub Reader is to allow delivery and devel
 
 
 ## Approach
-The Digital Explorer Solutions module stores solutions against a defined [Graph metamodel](..\MetaModels\SolutionMetaModel.md), the GitHub reader therefore requires solutions within GitHub to align to this metamodel. 
+The Digital Explorer Solutions module stores solutions against a defined [Graph metamodel](../MetaModels/SolutionMetaModel.md), the GitHub reader therefore requires solutions within GitHub to align to this metamodel. 
 
 ![image](images/SolutionModel.png)<br>
 
@@ -21,13 +21,28 @@ In order to leverage the range of features across the Digital Explorer platform;
 #### Industries
 The following relationships are created based on the content within the repository
 
-`(Solution)-[:]->(Subindustry)`
+`(Solution)-[:ASSIGNED]->(Subindustry)`
 
 #### Motivations and trends
-Each key element of text is analysed and matched against the Digital Explorer trends content; each match creates one of the following relationships
+To ensure the maximum benefit of adding the solution into the Digital Explorer Graph, each key element of text is analysed and matched against the Digital Explorer trends content; each match creates one of the following relationships
 
-`(Solution)-[:]->(BusienssTrend)`<br>
-`(Solution)-[:]->(TechnologyTrend)`
+`(Solution)<-[:INFLUCENCE]-(BusienssTrend)`<br>
+`(Solution)<-[:INFLUCENCE]-(TechnologyTrend)`
+
+##### Text Properties
+
+The following text properties are analysed against the Digital Explorer trend dataset
+
+- Solution.name
+- Solution.description
+- Solution.elevatorPitch
+- Solution.ValueProposition
+- Solution.BusinessValue
+- Solution.TechnicalValue
+- Feature.name
+- Feature.description
+
+
 
 #### Common Features
 Any name matches against existing `Feature` nodes within the Digital Explorer graph are automatically selected and used to reduce duplicate `Feature` nodes.
