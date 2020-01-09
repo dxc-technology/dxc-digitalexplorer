@@ -8,7 +8,7 @@ The purpose of the Digital Explorer GitHub Reader is to allow delivery and devel
 ## Approach
 The Digital Explorer Solutions module stores solutions against a defined [Graph metamodel](..\MetaModels\SolutionMetaModel.md), the GitHub reader therefore requires solutions within GitHub to align to this metamodel. 
 
-PLACEHOLDER FOR A SIMPLE BREAKDOWN OF THE DE SOLUTION MODEL
+![image](images/SolutionModel.png)<br>
 
 ## How to install
 
@@ -43,8 +43,6 @@ The Digital Explorer GitHub reader supports 2 base configurations within a GitHu
 ## Key Files
 
 Within both structures key files and content is required.
-
-PLACEHOLDER FOR THE LAYERS WITHIN THE SOLUTION MODEL
 
 ---
 
