@@ -6,7 +6,7 @@ The purpose of the Digital Explorer GitHub Reader is to allow delivery and devel
 
 
 ## Approach
-The Digital Explorer Solutions module stores solutions against a defined [Graph metamodel](../MetaModels/SolutionMetaModel.md), the GitHub reader therefore requires solutions within GitHub to align to this metamodel. 
+The Digital Explorer Solutions module stores solutions against a defined [:link: Graph metamodel](../MetaModels/SolutionMetaModel.md), the GitHub reader therefore requires solutions within GitHub to align to this metamodel. 
 
 ![image](images/SolutionModel.png)<br>
 
@@ -16,7 +16,7 @@ TBD
 
 
 ### Transferring and connecting into the Knowledge Graph
-In order to leverage the range of features across the Digital Explorer platform; during the synchronization the solution definition is broken down and connected to various elements within the knowledge Graph
+In order to leverage the range of features across the Digital Explorer platform; during the synchronization the solution definition is broken down and connected to various elements within the Knowledge Graph
 
 #### Industries
 The following relationships are created based on the content within the repository
@@ -55,13 +55,11 @@ The Digital Explorer GitHub reader supports 2 base configurations within a GitHu
 - Native (flat GitHub Structure)
 - DXC Publisher (Agent Smith)
 
-## Key Files
-
-Within both structures key files and content is required.
-
 ---
 
 ## Templates and Examples
+
+Within both structures key files and content is required.
 
 ### Templates
 - [Solution Overview](templates/Overview.md)
