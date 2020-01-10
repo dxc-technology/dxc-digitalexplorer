@@ -79,6 +79,28 @@ Within both structures key files and content is required.
 ---
 
 ## Solution types and versions
+
+### The Digital Explorer Solution Model
+A key element of the Solution model within DXC Digital Explorer is the notion of **Solution Types**; Solution Types allow users to group solution based on common areas; examples
+
+- DXC Accelerated Solution Development
+- DXC Reference Architecture
+- DXC Partner Capability
+
+Each **Solution Type** is broken further with **Sub Types**
+
+- DXC Accelerated Solutions Development
+  - Concept
+  - Prototype
+  - Pilot
+  - Production
+
+
+The **Solution Status** is defined at the individual solution level and is separate to the solution type.
+<br>
+![image](images/SolutionModel2.png)<br>
+
+
 ### Scenario 1: Same repository/change solution type
 Where the solution definition is managed within a single repository, changing the solution type (within the `Master` branch), will trigger a new solution model to be created within Digital Explorer.   The original solution model and type will remain in place and the new version will be created based on the content defined within the current repository structure.
 
@@ -88,12 +110,27 @@ A relationship between each solution is created to capture and track the iterati
 (Solution)-[:SPECIALIZED]->(Solution)
 ~~~
 
+If a solution status is changed the update is merged into the existing entry; only of the overall type is changes is another solution model generated.
+
+
+
 ### Scenario 2: Fork an existing solution into a new repository
-In the event an existing DE syncronziated solution repository is forked into a new variant and the GitHub application is added to the solution, a new solution model is created within the Digital Explorer solution and a relationship between the existing solution within Digital Explorer; the `Current` and `old` solution id's are referenced and changed within the `DigitalExplorerSync.md` file
+In the event an existing DE syncronziated solution repository is forked into a new variant and the GitHub application is added to the solution, a new solution model is created within the Digital Explorer solution and a relationship between the existing solution within Digital Explorer; the `Current` and `old` solution id's are referenced and changed within the `DigitalExplorerSync.md` file.  The new solution repo then follows the same change logic as scenario 1
 
 ~~~
 (Solution)-[:SPECIALIZED]->(Solution)
 ~~~
+<br>
+
+![image](images/SolutionlifeCycle.png)<br>
+
+Therefore over a period of time it is possible to generate this type of view within the Graph Database
+<br>
+![image](images/SolutionlifeCycle2.png)<br>
+
+---
+
+![image](images/SolutionlifeCycle3.png)<br>
 
 ---
 
