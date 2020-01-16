@@ -24,7 +24,7 @@ A single trend can have multiple industry use cases
     <br>![appblock](images/appblock.png)
 1. Select **`Sign In`** from the header and login with your global pass account
     <br>![login](images/login.png)
-1. Select **`Collaboration Module`** from the menu
+1. Select **`Add/Edit Trends`** from the menu
     <br>![menu](images/menu.png)
     <br>
 1. Select 'Business Trends'

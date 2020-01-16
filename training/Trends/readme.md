@@ -11,5 +11,5 @@
 | [Trends 104  : Industry Trends](Trends104/readme.md)|200|David Stevens
 | [Trends 105  : Technology Trends](Trends105/readme.md)|200|David Stevens
 | [Trends 106  : Trends Insights](Trends106/readme.md)|300|David Stevens
-| [How to contribute trends into Digital Explorer](ContributingTrends/readme.md) |300|David Stevens|
+| [How to add or edit trends into Digital Explorer](ContributingTrends/readme.md) |300|David Stevens|
 
