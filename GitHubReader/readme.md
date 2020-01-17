@@ -100,6 +100,7 @@ Within both structures key files and content is required.
 As defined above each **branch** within the GitHub repository aligns with a **single solution model** within Digital Explorer,  users have 2 options to create new solutions models within Digital Explorer.  as shown in the diagram below (4a) and (4b)
 
 <br>
+
 ![image](images/Scenerios.png)<br>
 
 Note, while (4a) is supported by the reader (4b) is the recommended best practice.
