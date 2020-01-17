@@ -2,7 +2,7 @@
 
 The purpose of the Digital Explorer GitHub Reader is to allow delivery and development teams to push and synchronize their solution descriptions directly into DXC Digital Explorer; allowing their content to be referenced across the Digital Explorer Platform.
 
-![image](GitHubReaderConcept.png)
+![image](images/GitHubReaderConcept.png)
 
 
 ## Approach
@@ -10,26 +10,45 @@ The Digital Explorer Solutions module stores solutions against a defined [:link:
 
 ![image](images/SolutionModel.png)<br>
 
-## How to install
+## GitHub Branches and Solution Models
+
+To promote good practice within GitHub the following principle is applied to the Digital Explorer Solution reader.
+
+**:scroll: A Branch equates to a single solution model within Digital Explorer**
+
+## Installation
 
 TBD
 
 
-### Transferring and connecting into the Knowledge Graph
+## Configurations
+
+**Branch Selection**
+
+It is possible to configure which branches within the repository are included within the solution reader sync.  
+
+_Default value:_ master branch = sync branch
+
+**Solution Type**
+Users define the **Solution Type** and **Sub Type** within the individual solution files within each repostiory  Superseeded models 
+
+
+
+## Connecting into the Knowledge Graph
 In order to leverage the range of features across the Digital Explorer platform; during the synchronization the solution definition is broken down and connected to various elements within the Knowledge Graph
 
-#### Industries
+### Industries
 The following relationships are created based on the content within the repository
 
 `(Solution)-[:ASSIGNED]->(Subindustry)`
 
-#### Motivations and trends
+### Motivations and trends
 To ensure the maximum benefit of adding the solution into the Digital Explorer Graph, each key element of text is analysed and matched against the Digital Explorer trends content; each match creates one of the following relationships
 
 `(Solution)<-[:INFLUCENCE]-(BusienssTrend)`<br>
 `(Solution)<-[:INFLUCENCE]-(TechnologyTrend)`
 
-##### Text Properties
+#### Text Properties
 
 The following text properties are analysed against the Digital Explorer trend dataset
 
@@ -44,7 +63,7 @@ The following text properties are analysed against the Digital Explorer trend da
 
 
 
-#### Common Features
+### Common Features
 Any name matches against existing `Feature` nodes within the Digital Explorer graph are automatically selected and used to reduce duplicate `Feature` nodes.
 
 
@@ -71,75 +90,22 @@ Within both structures key files and content is required.
 - [Media](templates/Media.md)
 - [Client Testimonial](templates/ClientTestimonial.md)
 
-### Example
+#### Example
 
 
-[**View solution within Digital Explorer**]()
-
----
-
-## Solution types and versions
-
-### The Digital Explorer Solution Model
-A key element of the Solution model within DXC Digital Explorer is the notion of **Solution Types**; Solution Types allow users to group solution based on common areas; examples
-
-- DXC Accelerated Solution Development
-- DXC Reference Architecture
-- DXC Partner Capability
-
-Each **Solution Type** is broken further with **Sub Types**
-
-- DXC Accelerated Solutions Development
-  - Concept
-  - Prototype
-  - Pilot
-  - Production
 
 
-The **Solution Status** is defined at the individual solution level and is separate to the solution type.
+## Solution Types and Version Control
+
+As defined above each **branch** within the GitHub repository aligns with a **single solution model** within Digital Explorer, solution models can be superseded within Digital Explorer by changing the Solution Type or Sub Type within the template files.  Superseded models are retained within Digital Explorer and a relationship to created between the two solution nodes.
+
+![image](images/supersedes.png)<br><br>
+
+The advantage of this approach allows solution owners to progress their solution development in a non-linear manner; a **concept** solution model can completed for a set of deliverables and be branched into a new **pilot** branch to continue development, both models will transferred into Digital Explorer and can be progressed on different development paths.
 <br>
-![image](images/SolutionModel2.png)<br>
+![image](images/Scenerios.png)<br>
 
-
-### Scenario 1: Same repository/change solution type
-Where the solution definition is managed within a single repository, changing the solution type (within the `Master` branch), will trigger a new solution model to be created within Digital Explorer.   The original solution model and type will remain in place and the new version will be created based on the content defined within the current repository structure.
-
-A relationship between each solution is created to capture and track the iterations made to the solution over a period of time
-
-~~~
-(Solution)-[:SPECIALIZED]->(Solution)
-~~~
-
-If a solution status is changed the update is merged into the existing entry; only of the overall type is changes is another solution model generated.
-
-
-
-### Scenario 2: Fork an existing solution into a new repository
-In the event an existing DE syncronziated solution repository is forked into a new variant and the GitHub application is added to the solution, a new solution model is created within the Digital Explorer solution and a relationship between the existing solution within Digital Explorer; the `Current` and `old` solution id's are referenced and changed within the `DigitalExplorerSync.md` file.  The new solution repo then follows the same change logic as scenario 1
-
-~~~
-(Solution)-[:SPECIALIZED]->(Solution)
-~~~
-<br>
-
-![image](images/SolutionlifeCycle.png)<br>
-
-Therefore over a period of time it is possible to generate this type of view within the Graph Database
-<br>
-![image](images/SolutionlifeCycle2.png)<br>
-
----
-
-![image](images/SolutionlifeCycle3.png)<br>
-
----
-
-## Roadmap
-A future release of Digital Explorer will auto-populate a new solution repository within GitHub based on the "ideas" definition within Digital Explorer.   The repository will be set-up with initial content within all the required template files and the GitHub app automatically enabled to ensure the solution model remains in sync.
-
-**@GlennA - My thinking here is the repo is also preconfigured under Agent Smith/Publisher**
-
----
+Note, while (4a) is supported by the reader (4b) is the recommended best practice.
 
 ## Post sync requirements
 
@@ -152,10 +118,3 @@ Digital Explorer Solution id (old) :
 Motivation matches:
 Industry matches:
 Common Features:
-
-
----
-
-## Advanced requirements
-
-how to automate the update of the template files which use/require meta data (e.g. Solution types)?
