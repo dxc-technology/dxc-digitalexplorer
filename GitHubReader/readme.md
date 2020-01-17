@@ -97,15 +97,17 @@ Within both structures key files and content is required.
 
 ## Solution Types and Version Control
 
-As defined above each **branch** within the GitHub repository aligns with a **single solution model** within Digital Explorer, solution models can be superseded within Digital Explorer by changing the Solution Type or Sub Type within the template files.  Superseded models are retained within Digital Explorer and a relationship to created between the two solution nodes.
+As defined above each **branch** within the GitHub repository aligns with a **single solution model** within Digital Explorer,  users have 2 options to create new solutions models within Digital Explorer.  as shown in the diagram below (4a) and (4b)
 
-![image](images/supersedes.png)<br><br>
-
-The advantage of this approach allows solution owners to progress their solution development in a non-linear manner; a **concept** solution model can completed for a set of deliverables and be branched into a new **pilot** branch to continue development, both models will transferred into Digital Explorer and can be progressed on different development paths.
 <br>
 ![image](images/Scenerios.png)<br>
 
 Note, while (4a) is supported by the reader (4b) is the recommended best practice.
+<br>
+The advantage of scenario 4b is this allows solution owners to progress their solution development in a non-linear manner; a **concept** solution model can be completed for a set of deliverables and then branched into a new **pilot** branch to continue the next stage of development, both branches/models will be transferred into Digital Explorer and can be progressed on different development paths.
+
+
+
 
 ## Post sync requirements
 
