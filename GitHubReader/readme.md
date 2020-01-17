@@ -92,6 +92,7 @@ Within both structures key files and content is required.
 
 #### Example
 
+*todo*
 
 
 
@@ -115,9 +116,9 @@ The advantage of scenario 4b is this allows solution owners to progress their so
 After the synchronization of the GitHub repository the following information is added to the GitHub repository
 
 ### DigitalExplorerSync.md
-Direct link : 
-Digital Explorer Solution id (current):
-Digital Explorer Solution id (old) : 
-Motivation matches:
-Industry matches:
-Common Features:
+- Direct link : 
+- Digital Explorer Solution id (current):
+- Digital Explorer Solution id (old) : 
+- Motivation matches:
+- Industry matches:
+- Common Features:
