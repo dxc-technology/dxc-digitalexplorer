@@ -17,7 +17,24 @@
 |Name |
 |Public|
 
+#### Node Label : WorkspaceGroupComment
 
+|Property|Description|
+|----|----|
+|id|system generated
+|text|
+|creationDate|
+|ownerEmail|
+
+#### Node Label : WorkspaceGroupReference
+
+|Property|Description|
+|----|----|
+|id|system generated
+|name|
+|type|
+|url|
+|creationDate|
 
 #### Node Label: Workspace Note
 
@@ -66,8 +83,21 @@
 |Attachment|Industry|REFERENCED|occurrence
 |Attachment|SubIndustry|REFERENCED|occurrence
 |Attachment|BusinessArea|REFERENCED|occurrence
+|Person|WorkspaceGroup|MEMBER_OF|
+|WorkspaceGroupReference|WorkspaceGroup|WITHIN|
+|WorkspaceGroupComment|WorkspaceGroup|WITHIN|
+|Person|WorkspaceGroupReference|ADDS|data
+|Person|WorkspaceGroupComment|ADDS|data
 
 
 _The occurrence counter is calculated via the document upload and analytics engine_
 
 
+
+
+## Change log
+
+| Date | By | Description
+|---|---|---|
+|July 2019| David Stevens | First version
+|Jan 2020| David Stevens | Workspace Groups, comments and references

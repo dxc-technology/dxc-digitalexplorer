@@ -2,7 +2,22 @@
 
 ## Managing your Workspace Group
 
-Within your workspace group you have the following options
+![image](images/WorkgroupCanvas.png)<br>
+
+
+Within the Workgroup canvas you can 
+
+- Add reference cards
+- Add comments
+- Change settings
+- Create Workspace
+- Create Playbook
+- Create Roadmap
+- View/Vote on Ideas
+- Create Solutions
+
+### Within your workspace group settings you have the following options
+
 
 - Workgroup Name
 - Associated Accounts
