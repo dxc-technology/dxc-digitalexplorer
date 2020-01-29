@@ -41,13 +41,13 @@ DXC Digital Explorer is not a data lake, DXC Digital Explorer is a living datase
 ----
 
 ### :books: Data Models
-* [Complete Model](MetaModels/completeModel.md)
-* [Business Trends MetaModel](MetaModels/BusinessTrendMetaModel.md)
-* [Technology Trends Metamodel](MetaModels/TechnologyTrendMetaModel.md)
-* [Roadmap Metamodel](MetaModels/RoadmapMetaModel.md)
-* [Solutions MetaModel](MetaModels/SolutionMetaModel.md)
-* [Workspace metamodel](MetaModels/WorkspaceMetaModel.md)
-* [Playbooks metamodel](MetaModels/PlaybooksMetaModel.md)
+* [Complete Model](DataModels/completeModel.md)
+* [Business Trends MetaModel](DataModels/BusinessTrendMetaModel.md)
+* [Technology Trends Metamodel](DataModels/TechnologyTrendMetaModel.md)
+* [Roadmap Metamodel](DataModels/RoadmapMetaModel.md)
+* [Solutions MetaModel](DataModels/SolutionMetaModel.md)
+* [Workspace metamodel](DataModels/WorkspaceMetaModel.md)
+* [Playbooks metamodel](DataModels/PlaybooksMetaModel.md)
 
 ### :trophy: Awards
 * [Neo4j Graph Impact award 2018 for Digital Transformation](https://neo4j.com/news/2018-graphie-award-winners/)
