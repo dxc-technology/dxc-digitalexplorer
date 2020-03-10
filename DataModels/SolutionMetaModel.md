@@ -1,6 +1,6 @@
 # Solution MetaModel 
 
-![image](../images/SolutionModelLogical.png)<br>
+![image](../images/SolutionModel.png)<br>
 
 
 - [Definition of terms](../defintionsOfTerms.md)
