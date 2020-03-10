@@ -1,7 +1,19 @@
 # DXC Digital Explorer : Definition of terms
 
+
+## Solution Model Terms
+
 |Term|Definition|
-|---|---
+|---|---|
+|Solution Type|
+|Solution SubType|
+
+
+
+## Roadmap Module Terms
+
+|Term|Definition|
+|---|---|
 |Roadmap Type|_Optional_ Category given to the type of Digital Roadmap being created. _Digital Transformation Map_ or _Innovation Agenda_
 |Roadmap Name|Short name given to the Digital Roadmap
 |Roadmap Description|Detailed description of the Digital Roadmap

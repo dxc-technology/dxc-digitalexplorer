@@ -1,5 +1,12 @@
 # Solution MetaModel 
 
+![image](../images/SolutionModelLogical.png)<br>
+
+
+- [Definition of terms](../defintionsOfTerms.md)
+
+## Graph Model
+
 ![](../images/SolutionMetaModel.png)
 
 Note : Any nodes with a solid border are a connection point across the graph model 
