@@ -20,6 +20,7 @@
 |Feature|Functional Layer|Core functional capability within the solution (examples.  Machine Learning Platform, Public Cloud Services)
 |DXC offering|Functional Layer|DXC offering used to support the implementation of the solution 
 |Pattern|Functional Layer|Collect of motivations, trends, features and DXC offerings 
+|Technology Group|Associated technology group where the feature resides (examples. Security, UX, Infrastructure)|Defined within the taxonomy
 |Industry|Implementation Layer|Name of the top level industry the solution relates to |Defined within the taxonomy
 |Sub Industry|Implementation Layer|Name of the 2nd level industry the solution relates to |Defined within the taxonomy
 |Value Chain|Implementation Layer|A value chain is a process or activity within an industry, which provides direct internal or external benefit or revenue. (examples : Business Models, Aftermarket care, Customer Experience, Design).|Defined within the taxonomy
