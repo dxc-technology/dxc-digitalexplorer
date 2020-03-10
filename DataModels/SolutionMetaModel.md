@@ -314,3 +314,4 @@ Ratio : 1:1
 |July 2019| David Stevens | Added special relationship for event voting
 |August 2019 | David Stevens | Optional Relationship between Solution and Business Area
 |October 2019 | David Stevens | Master relationship between Solution and Feature
+|March 2020| David Stevens | Added logical model and definition of terms

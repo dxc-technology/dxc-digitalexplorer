@@ -1,13 +1,34 @@
 # DXC Digital Explorer : Definition of terms
 
 
-## Solution Model Terms
+## Solution Module Terms
 
-|Term|Definition|
-|---|---|
-|Solution Type|
-|Solution SubType|
-
+|Term|Layer|Definition|Note
+|---|---|---|---|
+|Solution Type|Definition Layer|Top level grouping for a solution |Defined within the taxonomy
+|Solution SubType|Definition Layer|Second level group for a solution; defined under the solution Type|Defined within the taxonomy
+|Solution Name|Definition Layer|Short name of the solution
+|Elevator Pitch|Definition Layer|Short description of the solution|Max 240 characters
+|Description|Definition Layer|Overall description of the solution
+|Status|Definition Layer|Implementation status of the solution|Defined within the taxonomy
+|Value Proposition|Business Layer|Description of the overall value proposition the solution provides
+|Business Value|Business Layer|Detailed description of the business value the solution provides
+|Technical Value|Business Layer|Detailed description of the technical value the solution provides
+|Motivation|Business Layer|High level business motivation (Goal, Driver, KPI) the solution addresses
+|Business Trend|Business Layer|A Business trend is something which is relevant and can have a direct impact to the business
+|Technology Trend|Business Layer|A Technology trend is something which is relevant and can have a direct impact to the business
+|Feature|Functional Layer|Core functional capability within the solution (examples.  Machine Learning Platform, Public Cloud Services)
+|DXC offering|Functional Layer|DXC offering used to support the implementation of the solution 
+|Pattern|Functional Layer|Collect of motivations, trends, features and DXC offerings 
+|Industry|Implementation Layer|Name of the top level industry the solution relates to |Defined within the taxonomy
+|Sub Industry|Implementation Layer|Name of the 2nd level industry the solution relates to |Defined within the taxonomy
+|Value Chain|Implementation Layer|A value chain is a process or activity within an industry, which provides direct internal or external benefit or revenue. (examples : Business Models, Aftermarket care, Customer Experience, Design).|Defined within the taxonomy
+|Client Testimonial|Implementation Layer|Reference quote from the customer
+|Delivery Center|Implementation Layer|Name of the delivery Centre(s) where the solution was designed, developed or implemented
+|Account|Implementation Layer|Name of the account(s) where the solution has been implemented
+|Media|Supporting information|Any supporting media (examples. Video, Images, presentations)
+|Links|Supporting information|Any supporting links (examples. MS Teams site, microsite)
+|Contacts|Supporting information|Key contacts associated to the solution (examples. Product Owner, UX Lead, Developer)|The associated roles are managed within the taxonomy
 
 
 ## Roadmap Module Terms
