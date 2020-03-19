@@ -45,7 +45,7 @@ The following relationships are created based on the content within the reposito
 ### Motivations and trends
 To ensure the maximum benefit of adding the solution into the Digital Explorer Graph, each key element of text is analysed and matched against the Digital Explorer trends content; each match creates one of the following relationships
 
-`(Solution)<-[:INFLUCENCE]-(BusienssTrend)`<br>
+`(Solution)<-[:INFLUCENCE]-(BusinessTrend)`<br>
 `(Solution)<-[:INFLUCENCE]-(TechnologyTrend)`
 
 #### Text Properties
