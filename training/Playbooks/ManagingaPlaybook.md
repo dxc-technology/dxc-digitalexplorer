@@ -12,11 +12,16 @@
 1. Select `My  playbook` from the menu
     <br>![appblock](images/createpb1.png)
 1. Your Playbooks
-<br>![appblock](images/myPlaybooks.png)<br>
-From this screen you can select to 
-    1. View
-    1. Edit
-    1. Delete
+    <br>![appblock](images/myPlaybooks.png)<br>
+1. Expand the required Playbook Shelf
+    <br>![appblock](images/myPlaybooks2.png)<br>
+From this view you can:
+
+    - View the playbook
+    - Edit
+    - View the playbook metrics
+    - Delete the playbook
+  
 <br>
 You can also view the creation date and if your playbook is private or available to all users
 

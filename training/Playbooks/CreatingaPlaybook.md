@@ -60,11 +60,13 @@ The playbook shelf is shown on the homepage of the playbooks module.  You can se
 
 |Layout|Description|Related Module|Notes
 |---|---|---|---|
+|HEATMAP|Heatmap view from a selection of Workspaces|
 |GRAPH|Graph view from workspace|Workspaces|Single Workspace selection
 |COMPARE|Compare view from workspace|Workspaces|2 or 3 workspace selections
 |T_MAP|TMAP diagram from roadmaps|Roadmaps|
 |SUMMARY|Summary table from roadmaps|Roadmaps|
 |RISK_TABLE|Risk table from roadmaps|Roadmaps|Option to select the table axis
+|PAGE_IDEAS|Detailed page to present a single idea|Roadmaps|
 |TWO_COLUMNS_IMAGE_LEFT|1 text column image left|
 |TWO_COLUMNS_IMAGE_RIGHT|1 text column image left|
 |THREE_COLUMNS_IMAGE_LEFT|2 text columns image right|
