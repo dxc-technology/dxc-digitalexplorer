@@ -1,9 +1,34 @@
+# Digital Explorer Roadmap Module metamodel
+
+## Conceptual view
+
+![AgendaModel](images/RoadmapConceptModel.png)<br>
+
+- [Definition of terms](../defintionsOfTerms.md)
+
+## Graph Model
 
 ![AgendaModel](../images/RoadmapModel.png)
 
-#### **Node Definitions**
+## Idea Model
 
-##### Node Label: Account
+
+The **idea** sub Graph within the Roadmap modules represents the hypothesis of a business or technical solution to be discussed with the customer.
+
+### Conceptual view
+
+![AgendaModel](images/IdeasConceptModel.png)<br>
+
+### Graph Model
+
+![image](images/IdeaGraphModel.png)<br>.
+
+
+--- 
+
+### **Node Definitions**
+
+#### Node Label: Account
 
 |Property|Description|
 |----|----|
@@ -11,7 +36,7 @@
 |name | Name of the Account **Required**
 
 
-##### Node Label: InnovationAgenda
+#### Node Label: InnovationAgenda
 
 |Property|Description|
 |----|----|
@@ -21,7 +46,7 @@
 |creationDate| system generated - creation date of the agenda **Required**
 |validUntil| user input - valid until date **Required**
 
-##### Node Label: ClientValueChain
+#### Node Label: ClientValueChain
 
 |Property|Description|
 |----|----|
@@ -32,7 +57,7 @@
 |notes | free text to add notes
 
 
-##### Node Label: AgendaGoal
+#### Node Label: AgendaGoal
 
 |Property|Description|
 |----|----|
@@ -40,7 +65,7 @@
 |name|short text of the business goal
 |Description| extended description of the business goal
 
-##### Node Label: KPI
+#### Node Label: KPI
 
 |Property|Description|
 |----|----|
@@ -49,7 +74,7 @@
 |measure|associated measure for the KPI
 
 
-##### Node Label: Stakeholder
+#### Node Label: Stakeholder
 
 |Property|Description|
 |----|----|
@@ -57,7 +82,7 @@
 |name| name of the stakeholder
 |email| email address of the stakeholder
 
-##### Node Label: ClientDisruptor
+#### Node Label: ClientDisruptor
 
 Specialized instance of the business or technology trend within the innovation agenda
 
@@ -73,7 +98,7 @@ Specialized instance of the business or technology trend within the innovation a
 |focusArea|flag to set the value if the disruptor becomes a focus area for the account team
 
 
-##### Node Label: ClientIdea
+#### Node Label: ClientIdea
 Outcome of the innovation agenda, selected focus areas are combined to create a new project idea
 
 |Property|Description|
@@ -100,7 +125,7 @@ Outcome of the innovation agenda, selected focus areas are combined to create a 
 
 
 
-##### Node Label: DXCInternalProgram
+#### Node Label: DXCInternalProgram
 Internal program group to help track the creation of innovation agendas
 
 |Property|Description|
@@ -114,7 +139,7 @@ Internal program group to help track the creation of innovation agendas
 
 
 
-#### Relationships
+### Relationships
 
 |Source|Destination|Name|Properties|
 |----|----|----|----|
