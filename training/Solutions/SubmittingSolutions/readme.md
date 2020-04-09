@@ -8,5 +8,5 @@
 
 ### Supporting Materials
 - [Slides](CapturingReferenceSolutions.pptx)
-- [Offline Solution prep Template](SolutionTemplate.pptx)
+- [Offline Solution prep Template](DigitalExplorerSolutionTemplate.pptx)
 - [Walkthrough](walkthrough.md)
