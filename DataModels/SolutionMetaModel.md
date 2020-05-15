@@ -1,5 +1,7 @@
 # Solution MetaModel 
 
+## Conceptual view
+
 ![image](../images/SolutionModel.png)<br>
 
 
