@@ -103,7 +103,7 @@ Ratio : 1:n
 |description  |
 
 
-#### Node Label: FeatureSet
+#### Node Label: Pattern
 Scope :  Allows grouping of features into logical groups
 Architecture Layer : Functional 
 Ratio : 1:n
@@ -291,9 +291,11 @@ Ratio : 1:1
 |Solution|Attachment|DESCRIBEDBY
 |Attachment|DocumentationCategory|ofType
 |Solution|Practice|ASSOCIATED_TO
-|Feature|ConfigurationPlan|REALIZED_BY
-|Solution|ConfigurationPlan|REALIZED_BY
-|BusinessArea|Solution|INFLUENCE
+|Pattern|Solution||HAS
+|Feature|Pattern|PART_OF
+|Motivation|Pattern|PART_OF
+|TechnologyTrend|Pattern|PART_OF
+|BusinessTrend|Pattern|PART_OF
 
 
 #### Event Relationships
@@ -317,3 +319,4 @@ Ratio : 1:1
 |August 2019 | David Stevens | Optional Relationship between Solution and Business Area
 |October 2019 | David Stevens | Master relationship between Solution and Feature
 |March 2020| David Stevens | Added logical model and definition of terms
+|June 2020| David Stevens | Embedded Patterns
