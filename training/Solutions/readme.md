@@ -14,3 +14,4 @@ _duration : 0:55_
 | [How to submit solutions into Digital Explorer](SubmittingSolutions/readme.md) |200|David Stevens|
 
 | [Managing your solutions](ManageSolutions/readme.md) |200|David Stevens|
+| [Patterns](Patterns/readme.md)| 200 | David Stevens|
