@@ -3,7 +3,7 @@
 #### :movie_camera: How to add or edit Trends within DXC Digital Explorer
 
 ---
-[![video](images/videoThumbnail.png)](https://video.dxc.com/media/t/1_f0nwcsg1/79980521)
+[![video](images/videoThumbnail.png)](https://dxc.mediaplatform.com/#!/video/1419/Digital+Explorer+-++Adding+Trends)
 
 
 

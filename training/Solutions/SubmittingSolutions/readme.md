@@ -2,7 +2,7 @@
 
 #### :movie_camera: How to add solutions to Digital Explorer
 
-[![video](images/videoThumbnail.png)](https://video.dxc.com/media/t/1_diphdggz)
+[![video](images/videoThumbnail.png)](https://dxc.mediaplatform.com/#!/video/1417/Solution+Explorer+-+Adding+a+solution)
 
 ---
 

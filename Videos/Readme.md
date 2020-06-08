@@ -1,7 +1,7 @@
 # :movie_camera: List of DXC Digital Explorer videos  
  
 ## DXC TV
-https://video.dxc.com/channel/Digital%2BExplorer 
+https://dxc.mediaplatform.com/#!/channel/1548196919291/DXC+Digital+Explorer
 
 Various videos grouped as
 
