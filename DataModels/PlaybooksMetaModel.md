@@ -60,5 +60,5 @@
 |Playbook|Tag|HAS
 |Playbook|Person|ASSOCIATED
 |Playbook|Person|CREATED |creationDate
-|Playbook|PlaybookShelf|BELONGS_TO
+|Playbook|PlaybookShelf|BELONGS_TO|order
 |Person|PlaybookShelf|MEMBER_OF|Role
