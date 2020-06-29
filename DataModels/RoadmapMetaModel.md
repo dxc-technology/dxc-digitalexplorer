@@ -156,8 +156,8 @@ Internal program group to help track the creation of innovation agendas
 |ClientDisruptor|BusinessTrend|SPECIALIZES
 |ClientDisruptor|TechnologyTrend|SPECIALIZES
 |ClientIdea|ClientDistruptor|ASSIGNED
-|ClientIdea|KPI|ADDRESSES
-|ClientIdea|AgendaGoal|ADDRESSES
+|ClientIdea|KPI|ADDRESSES|order
+|ClientIdea|AgendaGoal|ADDRESSES|order
 |ClientIdea|Person|ASSIGNED |role
 |ClientIdea|Person|RANKED |vote
 |Account|DXCInternalProgram|MEMBER_OF
