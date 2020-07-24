@@ -87,8 +87,21 @@ The playbook shelf is shown on the homepage of the playbooks module.  You can se
 ### Contacts
 You can search and add any other DXC employee as a contact to your playbook.<br>
 :warning: the person must have a user account within the Digital Explorer platform<br>
-  <br>![appblock](images/playbook6.png)
+  <br>![appblock](images/playbook6.png)<br>
   :bulb: you can remove any assigned contacts by selecting the `trashcan` icon
+
+
+### Access Controls
+You can manage the access to the playbook with the following options<br>
+
+- Private Playbooks (_default value_)
+- DXC Employees Only
+- DXC and External Users
+- Named Users only
+
+:bulb: Named users must first be registered on the Digital Explorer platform
+
+<br>![image](images/playbookAccessControl.png)<br>
 
 ### Final Details
 :bulb: all information on this page is optional

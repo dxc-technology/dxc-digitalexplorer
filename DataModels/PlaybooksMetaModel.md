@@ -1,4 +1,4 @@
-![WorkspaceModel](../images/PlaybooksModel.png)
+![WorkspaceModel](images/PlaybooksModel.png)
 
 ### **Node Definitions**
 
@@ -7,12 +7,16 @@
 |Property|Description|type|limits
 |----|----|----|----|
 |id|system generated
-|name |name of the solution|string string |240 Characters
+|title |name of the solution|string string |240 Characters
 |Subtitle| |string string |240 Characters
-|TitleImage|URI address for the image
-|BannerImage|URI address for the image
+|CoverImageURI|URI address for the image
+|bannerImageURI|URI address for the image
+|bannerTextColour| defines the text colour to be used within the banner|
 |MoreInfo| | | Valid URL
-|Published| | boolean|
+|dxcOnly|Controls if the playbook is restricted to DXC users only | Boolean|
+|isPrivate|Controls if the playbook is restricted to named contacts only | Boolean| 
+|order|Controls the display position within the playbook shelf | |
+|creationDate|
 
 #### Node Label: PlaybookSection
 
@@ -62,3 +66,13 @@
 |Playbook|Person|CREATED |creationDate
 |Playbook|PlaybookShelf|BELONGS_TO|order
 |Person|PlaybookShelf|MEMBER_OF|Role
+|Person|Playbook|ACCESS_CONTROL|
+
+
+## Change log
+
+| Date | By | Description
+|---|---|---|
+|April 2019| David Stevens | First version
+|June 2020| David Stevens | Sort order for playbooks
+|July 2020| David Stevens | Access controls for external users
