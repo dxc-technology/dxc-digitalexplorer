@@ -1,10 +1,11 @@
 # Achievements
 
-- [Solutions Module](#Solutions)
-- [Trends Module](#Trends)
-- [Roadmaps Module](#Roadmaps)
-- [Workspaces Module](#Workspaces)
-- [Playbooks Module](#Playbooks)
+- [Achievements](#achievements)
+  - [Solutions](#solutions)
+  - [Trends](#trends)
+  - [Roadmaps](#roadmaps)
+  - [Workspaces](#workspaces)
+  - [Playbooks](#playbooks)
 
 ## Solutions
 |Module|Event|Award|Name|Description|Badge
@@ -19,6 +20,8 @@
 |Solutions|Save Solution|Trend included in solution|Innovator|Submitted a solution with a business or technology trend|![badge](images/achievements/innovator.png)
 |Solutions|Save Solution|Assigned industry to solution|Solution Industrialist|Submit your first solution for a named industry|![badge](images/achievements/solutionindustrialist.png)
 |Solutions|Save Solution|Assigned industry to solution|Solution Industrialist `<name>`|Submit your first solution for a named industry|
+|Solutions|Copy Solution|Copied an existing solution|Copied an existing solution|![badge](images/achievements/solutionCopy.png)
+|Solutions|Copy Solution|Solution Provider|A solution within the system has been copied/reused|![badge](images/achievements/solutionProvider.png)
 
 ## Trends
 |Module|Event|Award|Name|Description|Badge

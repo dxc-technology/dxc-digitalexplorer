@@ -11,6 +11,11 @@
 
 ![](../images/SolutionMetaModel.png)
 
+
+## Extended viewpoints
+
+- [Solution Copy](SolutionCopyMetaModel.md)
+
 Note : Any nodes with a solid border are a connection point across the graph model 
 
 ### **Node Definitions**
@@ -320,3 +325,4 @@ Ratio : 1:1
 |October 2019 | David Stevens | Master relationship between Solution and Feature
 |March 2020| David Stevens | Added logical model and definition of terms
 |June 2020| David Stevens | Embedded Patterns
+|August 2020| David Stevens| Extended solution model (Copy)
