@@ -19,7 +19,11 @@ Named and linked entities are matches against a managed dictionary within the Az
 ## Access controls
 Access to the enhanced document reader is currently restricted to users with "Trend Reviewer" role.
 
+
+
 ## Read Documents
+
+![image](images/ReadDocuments.png)<br>
 
 The enhanced document reader presents 2 options
 
@@ -52,8 +56,13 @@ The enhanced web page reader presents 2 options
 If the enhanced scan is selected, a further option to "save captured text" is available.
 
 
-
 ## Scanning documents
+
+### Scan progress
+
+A dialog is presented to track the progress and results obtained through each stage of the analysis.
+
+![image](images/ScanProgress.png)<br>
 
 
 ### Existing matches

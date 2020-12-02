@@ -49,13 +49,20 @@
 
 ## Digital Explorer : Workspaces
 
+
 |Description|Level|Contact|
 |---|---|---|
-| Creating a Workspace |100|David Stevens|
-| Using the Workspace Canvas|100|David Stevens|
-| Adding a Trend to a Workspace |200|David Stevens|
-| Adding a Solution to a Workspace |200|David Stevens|
+| Overview of the Workspace Module (Video) |100|David Stevens|
+| Creating a Workspace group and canvas |200|David Stevens|
+| Managing your workspace group |200|David Stevens|
+| Using the Workspace Canvas|200|David Stevens|
 | Workspace document upload and analyse|200|David Stevens|
+| **NEW** Workspace advanced document analytics|300|David Stevens|
+| Workspace Compare|200|David Stevens
+| Workspace SendTo..|200|David Stevens
+| Real-time collaboration|200|David Stevens|
+| Adding a Trend to a Workspace |300|David Stevens|
+| Adding a Solution to a Workspace |300|David Stevens|
 
 ### :books: [View the materials ](Workspaces/readme.md)
 <br>
