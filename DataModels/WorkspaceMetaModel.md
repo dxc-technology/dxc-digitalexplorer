@@ -1,4 +1,7 @@
-![WorkspaceModel](../images/workspacesMetaModel.png)
+## Workspaces data model
+
+
+![WorkspaceModel](images/workspacesMetaModel.png)
 
 ### **Node Definitions**
 
@@ -55,6 +58,43 @@
 |uri|
 
 
+### Node Label: AttachmentNLP
+|Property|Description|
+|----|----|
+|id|system generated
+|isKeyPhraseAnalyzeCompleted|Boolean
+|isLinkedEntityAnalyzeCompleted|Boolean
+|isNerEntityAnalyzeCompleted|Boolean
+|md5Hash|string
+|numberOfPages|Boolean
+|savedText|Boolean
+
+
+### Node Label: AttachmentNLPPage
+
+|Property|Description|
+|----|----|
+|id|system generated
+|blobStorageName|string
+|md5Hash|string
+|page|integer
+
+### Node Label: Insight
+#### Secondary Labels : KEY_PHRASE, NER_ENTITY, LINKED_ENTITY
+
+|Property|Description|
+|----|----|
+|id|system generated
+|name| |
+
+### Node Label: InsightCategory
+
+|Property|Description|
+|----|----|
+|id|system generated
+|name| |
+
+
 #### Relationships
 
 |Source|Destination|Name|Properties|
@@ -88,6 +128,11 @@
 |WorkspaceGroupComment|WorkspaceGroup|WITHIN|
 |Person|WorkspaceGroupReference|ADDS|data
 |Person|WorkspaceGroupComment|ADDS|data
+|AttachmentNLP|Attachment|REFERENCED|
+|AttachmentNLP|AttachmentNLPPage|REFERENCED
+|AttachmentNLPPage|Insight|REFERENCED|occurrence
+|Insight|InsightCategory|HAS
+|Insight|Workspace|REFERENCED
 
 
 _The occurrence counter is calculated via the document upload and analytics engine_
@@ -101,3 +146,4 @@ _The occurrence counter is calculated via the document upload and analytics engi
 |---|---|---|
 |July 2019| David Stevens | First version
 |Jan 2020| David Stevens | Workspace Groups, comments and references
+|Nov 2020| David Stevens | Insights and NLP updates

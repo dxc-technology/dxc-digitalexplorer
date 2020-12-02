@@ -16,6 +16,7 @@ _duration : 0:56_
 | [Managing your workspace group](WorkspaceSetupGroups.md) |200|David Stevens|
 | [Using the Workspace Canvas](WorkspaceCanvas.md)|200|David Stevens|
 | [Workspace document upload and analyse](workspaceDocuments.md)|200|David Stevens|
+| [Workspace advanced document analytics](workspaceNLPReader.md)|300|David Stevens|
 | [Workspace Compare](WorkspaceCompare.md)|200|David Stevens
 | [Workspace SendTo..](WorkspaceSendTo.md)|200|David Stevens
 | [Real-time collaboration](Real-timeCollaboration.md)|200|David Stevens|
