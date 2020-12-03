@@ -15,6 +15,14 @@ The NLP updated scans the document against 3 core services
 
 Named and linked entities are matches against a managed dictionary within the Azure service, while key phrases are calculated by the NLP engine itself (and can create some interesting results).
 
+> **How it works and some considerations**
+> 
+>The Azure service supports up to 5,000 characters per API call, as we read in the source document into the Workspace module we capture the document as a single text stream and then split this into a set of 5,000 character pages.   Each page is sent to the API in turn and the results are then assembled before storing within the database.   When you view the saved text the pages reflect these API generated pages and not the actual pages within the document itself.
+>
+>Be aware that the longer the document the more API calls you will be making.   A small document may complete its full scan in under 30 seconds, but a full annual report may take longer; the revised document reader dialog presents the progress of each stage of the enhanced document reader, so you should be able to track where you are and potentially how long the full scan should take.
+>
+>We have also included a check to not rescan the same document over and over again, so if you or another user has analysed the latest “DXC annual report”, the next person to do so will simply be presented with the stored results (we are planning an overwrite option for a future release).
+
 
 ## Access controls
 Access to the enhanced document reader is currently restricted to users with "Trend Reviewer" role.
@@ -142,15 +150,3 @@ The selected text is highlighted within the document text and you can also click
 :bulb: The text pages are defined by 5000 characters sections from the original document and do not represent the actual pages within the original document
 
 
----
-
-Usage of insights within the other workspace features
-
-- Included within the graph and compare views
-
-
-Updates to be made to
-
-- heatmap view
-- download to csv
-- send to
