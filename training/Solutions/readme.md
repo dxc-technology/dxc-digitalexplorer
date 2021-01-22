@@ -17,3 +17,4 @@ _duration : 0:55_
 | [Patterns](Patterns/readme.md)| 200 | David Stevens|
 | [Copying Solution](CopySolution/readme.md)|200|David Stevens
 | [Solution Composition](Composition/readme.md)|300|David Stevens
+| [Solution Add API](SolutionAPI/readme.md)|300|David Stevens
