@@ -15,6 +15,7 @@
 ## Extended viewpoints
 
 - [Solution Copy](SolutionCopyMetaModel.md)
+- [Solution Composition](SolutionComposition.md)
 
 Note : Any nodes with a solid border are a connection point across the graph model 
 
@@ -326,3 +327,4 @@ Ratio : 1:1
 |March 2020| David Stevens | Added logical model and definition of terms
 |June 2020| David Stevens | Embedded Patterns
 |August 2020| David Stevens| Extended solution model (Copy)
+|January 2021| David Stevens | Composition models

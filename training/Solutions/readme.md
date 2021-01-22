@@ -16,3 +16,4 @@ _duration : 0:55_
 | [Managing your solutions](ManageSolutions/readme.md) |200|David Stevens|
 | [Patterns](Patterns/readme.md)| 200 | David Stevens|
 | [Copying Solution](CopySolution/readme.md)|200|David Stevens
+| [Solution Composition](Composition/readme.md)|300|David Stevens
