@@ -20,6 +20,7 @@
 | **Module** | **Feature** | **Description** | **Link** |
 | --- | --- | --- |---|
 | Workspaces | Analyze content | Anaylze documents and external websites against the DXC digital Trends
+| Workspaces | Analyze content | full NLP analytics leveaging the Azure NLP services.
 | Workspaces | Add team members | Add other users to an existing worksplace
 | Workspaces | Realtime collaboration  | work with online workspace members in realtime
 | Workspaces | Recommendation engine | Smart look-up for suggested people and solutions - filter by industry or region |   |
@@ -27,6 +28,8 @@
 | Workspaces | Send To | Option to transfer content from a workspace to another Digital Explorer Module|(images/samples/workspaces/SendTo.png)
 | Workspaces | Graph view | View the workspace as a Graph data view|[Screenshot](images/samples/workspaces/workspaceGraphView.png)
 | Workspaces | Analyzer | Compare 2 or 3 workspaces for common elements |[Screenshot](images/samples/workspaces/workspaceAnalyzer.png)
+| Workspaces | Heatmaps | Heatmap view of the active workspace|
+| Workspaces | Nested Circles | View 1 or more workspaces as a "nested circle" dataview|
 | Workspaces | Sizing | Option to size the workspace cards by the matching count
 | Workspaces | Sort By | Option to sort the workspace cards by their sizing counts
 | Workspaces | Group By | Option to group the workspace cards based on their type
