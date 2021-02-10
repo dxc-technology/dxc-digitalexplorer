@@ -12,10 +12,9 @@ _duration : 0:55_
 |---|---|---|
 | [Overview of the Solution Module (Video)](https://dxc.mediaplatform.com/#!/video/1837/Digital+Explorer+Solutions+Module+Overview)|100|David Stevens|
 | [How to submit solutions into Digital Explorer](SubmittingSolutions/readme.md) |200|David Stevens|
-
 | [Managing your solutions](ManageSolutions/readme.md) |200|David Stevens|
-| [Patterns](Patterns/readme.md)| 200 | David Stevens|
-| [Copying Solution](CopySolution/readme.md)|200|David Stevens
-| [Solution Composition](Composition/readme.md)|300|David Stevens
-| [Bulk upload](bulkUpload/readme.md)|300|David Stevens
+| [Patterns](Patterns/readme.md) | 200 | David Stevens|
+| [Copying Solution](CopySolution/readme.md) |200|David Stevens
+| [Solution Composition](Composition/readme.md) |300|David Stevens
+| [Bulk upload](bulkUpload/readme.md) |300|David Stevens
 | [Solution Add API](SolutionAPI/readme.md)|300|David Stevens
