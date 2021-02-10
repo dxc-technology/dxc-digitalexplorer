@@ -1,0 +1,2 @@
+id,name,description,elevatorPitch,solutionSubType,referenceable,status,contacts,attachments,isPrivate,metaSubIndustries,tags
+,test solution based on internet of things and machine learning,my test solution ,my amazing solution for machine learning and internet of things,12600,No,Concept,[admin;admin@dxc.com; Solution Owner; test;test@dxc.com;Account Architect],[https://dxc.com;https://luxoft.com],FALSE,[405040;843],[tag1;example;testing]
