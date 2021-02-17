@@ -83,3 +83,45 @@ The `solution Sub type` and `sub industries` require the internal Digital Explor
 ## Updating existing entries
 
 To update an existing entry, simply include the Digital Explorer Solution ID in the first column of the CSV file.
+
+---
+
+## Upload files
+
+To access the bulk upload UI, Administrator or Solution Editor roles need to be assigned to the user.
+
+1. Access the solutions module
+2. Select "admin" from the menu
+3. Select "Simple Solution Bulk Load"<br>
+![image](images/bulkUpload.png)<br>
+1. Browse to select the required file to upload
+2. Select "Load" once your file is selected<br>
+![image](images/bulkUploadUILoad.png)<br>
+6. the results window will display the outcome from each solution loaded, detailing the following
+   1. Solution Name
+   2. link to solution entry within Digital Explorer
+   3. Any matched Business or Technology Trends or Insights are also listed<br>
+   ![image](images/bulkUploadUIResults.png)<br>
+7. You can copy the results to your local clipboard to paste into any external application<br>
+![image](images/bulkUploadCopytoClipBoard.png)<br>
+
+---
+
+## The Simple Solution Data model
+
+The following Graph model is created for a solution uploaded via the simple solution API/CSV loader
+
+![image](images/model.png)<br>
+
+The connections to the Business Trend, Technology Trends and Insight nodes allows for similarity and recommendations to be ran against the 
+
+
+---
+
+## Results within the Digital Explorer Solutions datasheet
+
+The simple solution upload option creates a minimum solution entry within Digital Explorer,  the following tabs will have information presented
+
+- Overview
+- Motivations: lists any matched trends
+- Account and industry: lists any included 

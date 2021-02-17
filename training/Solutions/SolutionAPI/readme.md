@@ -67,7 +67,6 @@ API : `https://digitalexplorer.dxc.com/wwb/api/simpleSolution`
 "contacts":[{"name":"Test","email":"test@email.com","role":"Solution Owner"}],
 "attachments":[],
 "isPrivate": false,
-"metaBusinessAreas":[],
 "metaSubIndustries":[],
 "tags":[]}
 ~~~
@@ -109,6 +108,9 @@ API : `https://digitalexplorer.dxc.com/wwb/api/simpleSolution`
 
 ### Attachments
 List : 
+~~~
+"attachments":[{"id":406725, "attachmentType":"REMOTE", "docType":"PDF","name":"Brochureuri:http://dgxcentre.com/wp-content/uploads/2017/03/DGX-Design-Studio-Workshop-Brochure.pdf"}],
+~~~
 
 
 ### isPrivate
@@ -123,6 +125,11 @@ Private solutions are not included in the search or recommendation engine result
 - List
 - Aligned to DXC Industry Taxonomy
 - Example with multiple Sub Industries
+
+~~~
+"metaSubIndustries":[3817, 2907],
+~~~
+
 
 ### Tags
 - Optional
