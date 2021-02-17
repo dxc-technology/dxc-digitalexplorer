@@ -63,12 +63,17 @@ The contact information needs to be provided in the following structure
 
 ## Upload process
 
-The upload process reviews the following fields and creates relationships to any matching Business Trends, Technology Trends or Insights within the knowledge graph, this ensures the added solution is connected to the recommendation engine used within the Digital Explorer Workspace and Roadmap modules.
+The upload process reviews the following fields and creates relationships to any matching Business Trends, Technology Trends or Insights within the knowledge graph, this ensures the added solution is connected to the recommendation engine used within the Digital Explorer Workspace and Roadmap modules, as well allowing similarity queries to be run against any of the created solution entries.
 
 - Solution Name
 - Description
 - Elevator Pitch	
 
+### Data Model
+
+The following Graph model is created for a solution uploaded via the simple solution API/CSV loader
+
+![image](images/model.png)<br>
 
 ---
 
@@ -86,7 +91,22 @@ To update an existing entry, simply include the Digital Explorer Solution ID in 
 
 ---
 
-## Upload files
+## Results within the Digital Explorer Solutions datasheet
+
+The simple solution upload option creates a minimum solution entry within Digital Explorer,  the following tabs will have information presented:
+
+- Overview
+- Motivations: lists any matched trends
+- Account and industry: lists any included 
+- Media : Link back to the source location
+- Contacts : Contract details for the solution
+
+
+**Note: It is possible to edit the solution within Digital Explorer to take advantage of the full solution metamodel**
+
+---
+
+## Uploading files
 
 To access the bulk upload UI, Administrator or Solution Editor roles need to be assigned to the user.
 
@@ -104,24 +124,3 @@ To access the bulk upload UI, Administrator or Solution Editor roles need to be 
    ![image](images/bulkUploadUIResults.png)<br>
 7. You can copy the results to your local clipboard to paste into any external application<br>
 ![image](images/bulkUploadCopytoClipBoard.png)<br>
-
----
-
-## The Simple Solution Data model
-
-The following Graph model is created for a solution uploaded via the simple solution API/CSV loader
-
-![image](images/model.png)<br>
-
-The connections to the Business Trend, Technology Trends and Insight nodes allows for similarity and recommendations to be ran against the 
-
-
----
-
-## Results within the Digital Explorer Solutions datasheet
-
-The simple solution upload option creates a minimum solution entry within Digital Explorer,  the following tabs will have information presented
-
-- Overview
-- Motivations: lists any matched trends
-- Account and industry: lists any included 
